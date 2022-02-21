@@ -12,7 +12,7 @@ class Board:
 
         self.players = players
         self.num_players = len(players)
-        self.num_agents = min(self.num_players + 2, 7)
+        self.num_agents = min(self.num_players + 3, 7)
 
         self.state = self.start()
 
